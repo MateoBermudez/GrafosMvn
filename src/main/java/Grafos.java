@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Grafos {
     Nodo[] listaAdyacencia;
     char[] relacionListaAdyacencia;
@@ -409,5 +411,9 @@ public class Grafos {
             }
         }
         return Integer.parseInt(camino.toString());
+    }
+
+    public void VaciarVisitados() {
+        Arrays.fill(visitado, 0);
     }
 }

@@ -57,6 +57,7 @@ public class Main {
                         break;
                     }
                     grafo.DFS(origen);
+                    grafo.VaciarVisitados();
                     System.out.print("\n");
                     break;
                 case "6":
